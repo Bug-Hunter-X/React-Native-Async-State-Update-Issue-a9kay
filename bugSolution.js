@@ -1,0 +1,1 @@
+The solution addresses the problem by correctly managing the dependencies in the `useEffect` hook. By including the `isLoading` variable in the dependency array, the effect only runs when `isLoading` changes, ensuring the component re-renders after the data fetch completes.  The updated code uses async/await to make the code more readable and maintainable.
